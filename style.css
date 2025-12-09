@@ -1,0 +1,70 @@
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif; /* Font styling */
+  background-color: #f4f4f9; /* Background color */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Layout Container */
+.container {
+  background-color: white;
+  padding: 30px; /* Spacing */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Heading Styling */
+h1 {
+  color: #2c3e50; /* Text Color */
+  margin-bottom: 20px;
+}
+
+/* Image Styling */
+.project-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Paragraph Styling */
+p {
+  color: #555;
+  line-height: 1.6; /* Spacing between lines */
+  font-size: 16px;
+}
+
+/* Link Styling */
+.learn-more-link {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+}
+
+.learn-more-link:hover {
+  color: #2980b9;
+}
+
+/* Button Styling */
+button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #219150;
+}
